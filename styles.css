@@ -1,0 +1,417 @@
+                         @font-face {
+                             font-family: Comfortaa;
+                             src: url("Comfortaa-Light.ttf");
+                         }
+                         
+                         body {
+                             margin: 0;
+                             font-family: Comfortaa;
+                             box-sizing: border-box;
+                         }
+                         
+                         div {
+                             display: block;
+                             margin: 0;
+                             padding: 0;
+                         }
+                         
+                         .main {
+                             width: 100%;
+                             height: auto;
+                             display: flex;
+                             box-sizing: border-box;
+                             flex-direction: column;
+                         }
+                         
+                         .row {
+                             width: 100%;
+                         }
+                         /* header  */
+                         
+                         .header {
+                             width: 100%;
+                             height: auto;
+                             box-sizing: border-box;
+                             background-image: url('header.jpg');
+                             background-repeat: no-repeat;
+                             background-size: 100% 100%;
+                             padding: 2%;
+                         }
+                         
+                         .menu-item {
+                             overflow: hidden;
+                         }
+                         
+                         .motto {
+                             color: white;
+                             text-align: center;
+                             padding: 20%;
+                         }
+                         
+                         .header .navbar {
+                             margin: 0px auto;
+                             display: flex;
+                             align-items: initial;
+                         }
+                         
+                         .header .navbar .menu {
+                             width: 75%;
+                             float: left;
+                             display: flex;
+                             justify-content: flex-end;
+                             align-items: center;
+                         }
+                         
+                         .navbar .logo {
+                             width: 25%;
+                         }
+                         
+                         .header .navbar .menu .menu-item {
+                             padding: 0px 10px;
+                             font-weight: bold;
+                             text-align: right;
+                         }
+                         
+                         .header .navbar .menu .menu-item a {
+                             color: #f2f2f2;
+                             text-decoration: none;
+                         }
+                         
+                         .header .navbar .menu .menu-item a:hover {
+                             background-color: none;
+                             color: black;
+                         }
+                         
+                         .header .navbar .menu .menu-item a.active {
+                             background-color: #4CAF50;
+                             color: white;
+                         }
+                         
+                         .down-arrow-button {
+                             padding: 5px;
+                             text-align: center;
+                             height: 50px;
+                         }
+                         /* triple */
+                         
+                         .triple {
+                             font-size: 0;
+                             position: relative;
+                         }
+                         
+                         .third {
+                             width: 33.333333333333333333%;
+                             height: auto;
+                             display: inline-block;
+                             box-sizing: border-box;
+                             padding-top: 5%;
+                             padding-bottom: 5%;
+                         }
+                         
+                         .third-left {
+                             background-color: #345363
+                         }
+                         
+                         .third-middle {
+                             background-color: #292c34
+                         }
+                         
+                         .third-right {
+                             background-color: #555f5e
+                         }
+                         
+                         .wrapper {
+                             height: 150px;
+                         }
+                         
+                         .wrapper img {
+                             height: 50px;
+                             display: block;
+                             margin: auto;
+                         }
+                         
+                         .text-title {
+                             font-size: 20px;
+                             color: white;
+                             padding-top: 50px;
+                             text-align: center;
+                         }
+                         
+                         .text-small {
+                             font-size: 12px;
+                             color: white;
+                             text-align: center;
+                         }
+                         /* double */
+                         
+                         .double {
+                             font-size: 0;
+                             display: flex;
+                         }
+                         
+                         .twice {
+                             flex-direction: row;
+                             flex-flow: row;
+                             width: 50%;
+                             height: auto;
+                             flex: 1;
+                             width: 50%;
+                             box-sizing: border-box;
+                             text-align: center;
+                         }
+                         
+                         .twice-left {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                             background-color: #ffffff;
+                         }
+                         
+                         .twice-right {
+                             background-color: #292c34;
+                             overflow: auto;
+                         }
+                         
+                         .twice-photo {
+                             width: 100%;
+                             height: auto;
+                         }
+                         
+                         .wrapper2 {
+                             display: flex;
+                             flex-direction: column;
+                             padding-left: 100px;
+                             padding-bottom: 50px;
+                         }
+                         
+                         .option {
+                             display: flex;
+                             flex-direction: row;
+                             padding: 5%;
+                         }
+                         
+                         .wrapper2 .text-title {
+                             color: black;
+                             text-align: left;
+                         }
+                         
+                         .option .text-option {
+                             font-size: 15px;
+                             color: black;
+                             padding-left: 10px;
+                         }
+                         
+                         .wrapper2 .btn {
+                             width: 100px;
+                             height: 30px;
+                             background-color: #28ea89;
+                             color: white;
+                             align-items: center;
+                             border: 0;
+                             padding: 0;
+                             border-radius: 3px;
+                         }
+                         /* video */
+                         
+                         .wrapper3 {
+                             display: inline-block;
+                             box-sizing: border-box;
+                             width: 100%;
+                             height: auto;
+                             background-image: url('video.jpg');
+                             background-repeat: round;
+                             background-size: 100% 100%;
+                             text-align: center;
+                             color: whitesmoke;
+                             font-size: 35px;
+                             padding: 100px;
+                         }
+                         
+                         .wrapper3 .btn {
+                             width: 100px;
+                             height: 30px;
+                             background-color: #28ea89;
+                             color: white;
+                             align-items: center;
+                             border: 0;
+                             padding: 0;
+                             border-radius: 3px;
+                         }
+                         /* blogs */
+                         
+                         .blogs {
+                             background-color: #28ea89;
+                             display: flex;
+                             flex-wrap: wrap;
+                             justify-content: space-around;
+                         }
+                         
+                         .blog-image {
+                             width: 100%;
+                         }
+                         
+                         .blog-title {
+                             color: #292c34;
+                             font-size: 25px;
+                             height: 25%;
+                             width: 100%;
+                             text-align: center;
+                         }
+                         
+                         .wrapper4 {
+                             background-color: #ffffff;
+                             color: #2a2d3c;
+                             margin: 15px;
+                             width: 40%;
+                             flex-direction: row;
+                             justify-content: center;
+                             height: 75%;
+                             padding-bottom: 10px;
+                         }
+                         
+                         .wrapper4 .btn {
+                             width: 100px;
+                             height: 30px;
+                             background-color: #292c34;
+                             color: #28ea89;
+                             align-items: center;
+                             border: 0;
+                             padding: 0;
+                             border-radius: 3px;
+                             margin-top: 5px;
+                         }
+                         
+                         .blog-text {
+                             text-align: left;
+                             padding-left: 15px;
+                         }
+                         
+                         .add {
+                             width: 100%;
+                             height: 25%;
+                             justify-content: center;
+                             display: flex;
+                             margin: 2%;
+                         }
+                         
+                         .radius-btn {
+                             font-size: 25px!important;
+                             color: #28ea89;
+                             background-color: white;
+                             border-radius: 50%;
+                             border: none;
+                             padding: 8px 16px;
+                             overflow: hidden;
+                         }
+                         
+                         .down-arrow-button .radius-btn {
+                             color: #292c34;
+                             background-color: #28ea89;
+                         }
+                         /*  startup*/
+                         
+                         .startup {
+                             display: flex;
+                             flex-direction: column;
+                             justify-content: center;
+                             align-items: center;
+                             background-color: #292c34;
+                             padding: 3%;
+                             color: white;
+                             box-sizing: border-box;
+                         }
+                         
+                         .btn-green {
+                             width: 100px;
+                             height: 30px;
+                             background-color: #28ea89;
+                             color: white;
+                             align-items: center;
+                             border: 0;
+                             padding: 0;
+                             border-radius: 3px;
+                             margin-top: 5px;
+                             margin: 1%;
+                         }
+                         
+                         .btn-white {
+                             width: 100px;
+                             height: 30px;
+                             background-color: white;
+                             color: #28ea89;
+                             align-items: center;
+                             border: 0;
+                             padding: 0;
+                             border-radius: 3px;
+                             margin-top: 5px;
+                             margin: 1%;
+                         }
+                         
+                         .startup .row {
+                             display: flex;
+                             flex-direction: row;
+                             justify-content: center;
+                         }
+                         /* media */
+                         
+                         .media {
+                             display: flex;
+                             flex-direction: row;
+                             justify-content: space-around;
+                             padding: 2% 0px;
+                             box-sizing: border-box;
+                         }
+                         
+                         .first {
+                             width: 40%;
+                             display: flex;
+                             flex-direction: column;
+                             justify-content: flex-start;
+                         }
+                         
+                         .first .p {
+                             flex-wrap: wrap;
+                         }
+                         
+                         .green-text {
+                             color: #28ea89;
+                         }
+                         
+                         .second {
+                             width: 40%;
+                             display: flex;
+                             flex-direction: column;
+                             justify-content: space-around;
+                         }
+                         
+                         .logos {
+                             max-height: 30px;
+                             width: 100%;
+                             flex-direction: row;
+                             justify-content: flex-start;
+                             box-sizing: border-box;
+                         }
+                         /* next time with js*/
+                         
+                         .logos img {
+                             height: 100%;
+                             width: auto;
+                         }
+                         
+                         a {
+                             text-decoration: none;
+                             color: #292c34;
+                         }
+                         /*footer*/
+                         
+                         .simple-span {
+                             color: white;
+                         }
+                         
+                         .footer {
+                             display: flex;
+                             justify-content: space-around;
+                             box-sizing: border-box;
+                             background-color: #292c34;
+                             padding: 2%;
+                         }
